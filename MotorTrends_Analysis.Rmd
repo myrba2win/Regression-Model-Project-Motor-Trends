@@ -1,13 +1,13 @@
 ---
 title: "Johns Hopkins University - Motor Trends Analysis"
 author: "Myr Balada"
-date: "30/10/2020"
+date: "31/10/2020"
 geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm"
 output:
-  html_document: default
+  pdf_document: default
   fig_height: 4 
   fig_width: 6
-  pdf_document: default
+  html_document: default
 ---
 
 
