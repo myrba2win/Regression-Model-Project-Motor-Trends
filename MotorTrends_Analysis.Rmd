@@ -106,7 +106,7 @@ Regarding the first question, it is clear that when choosing between automatic o
 For the second question, if it is also more difficult to answer, it is demonstrated through making a good adjustment to the model, since it allows us to obtain an improvement of 2.93 in mpg for the manual transmission. We obtain a p <0.05 and an R squared of 0.85.
 There is another relevant factor that has to do with the number of observations in the database (they are not so many as to obtain a better analysis). In the residual plot, the manual transmission model is seen to be better, but we are only taking 32 observations. 
 
-(You can see the code detail at https://github.com/myrba2win/Regression-Models-Motor-Trends)
+(You can see the code detail at https://github.com/myrba2win/Regression-Model-Project-Motor-Trends)
 
 #     Appendix
 A.1 Using t-Test with the variable “mpg” for Automatic and Manual Transmission
