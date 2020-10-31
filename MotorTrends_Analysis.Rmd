@@ -4,10 +4,10 @@ author: "Myr Balada"
 date: "30/10/2020"
 geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=2cm"
 output:
-  pdf_document: default
+  html_document: default
   fig_height: 4 
   fig_width: 6
-  html_document: default
+  pdf_document: default
 ---
 
 
@@ -157,7 +157,7 @@ summary(fit3)
 ```
 A.7 Plot of the Residuals of the Model “fit3”
 
-```{r, echo=FALSE, results=TRUE,  fig5, fig.height = 6, fig.width = 6.5}
+```{r, echo=FALSE, results=TRUE,  fig5, fig.height = 7, fig.width = 8}
 par(mfrow = c(2,2))
 plot(fit3)
 ```
