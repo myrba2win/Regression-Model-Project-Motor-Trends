@@ -95,16 +95,16 @@ fit3 <- lm(mpg ~ am + wt + hp , data = mtcars)
 fit4 <- lm(mpg ~ am + wt + hp+ disp, data = mtcars) 
 fit5 <- lm(mpg ~ ., data = mtcars) 
 ```
-The base variable of our analysis is "mpg" as a function of "am" (automatic / manual transmission). We incorporate a series of complementary variables, in order to obtain a model that allows us to explain the changes in "mpg". Given the high correlation between the variables "cyl" and "disp", we chose to leave out "cyl". The variables "wt" and "hp" interest us because of the notable improvement of the model. This corresponds to the case of the variable "fit3". Appendix A.5 shows the correlations of the variables used.
-On the other hand, Appendix A.6 shows the summation of the "fit3" model that bases 84% of the variability in "mpg".
+The base variable of our analysis is "**mpg**" as a function of "am" (automatic / manual transmission). We incorporate a series of complementary variables, in order to obtain a model that allows us to explain the changes in "mpg". Given the high correlation between the variables "**cyl**" and "**disp**", we chose to leave out "**cyl**". The variables "**wt**" and "**hp**" interest us because of the notable improvement of the model. This corresponds to the case of the variable "*fit3*". **Appendix A.5** shows the correlations of the variables used.
+On the other hand, **Appendix A.6** shows the summation of the "*fit3*" model that bases 84% of the variability in "**mpg**".
 
-By reviewing Appendix A.7, we can understand through the "Residual" graph of the "fit3" model. The fit that was made in the model works because it is the requirement of a linear model which is precisely what explains the variability in "mpg".
+By reviewing **Appendix A.7**, we can understand through the "*Residual*" graph of the *"fit3" model*. The fit that was made in the model works because it is the requirement of a linear model which is precisely what explains the variability in "**mpg**".
 
 ##    Final Conclusion
 
-Regarding the first question, it is clear that when choosing between automatic or manual transmission, mpg performance is better for the manual version (keeping the rest of the parameters constant).
-For the second question, if it is also more difficult to answer, it is demonstrated through making a good adjustment to the model, since it allows us to obtain an improvement of 2.93 in mpg for the manual transmission. We obtain a p <0.05 and an R squared of 0.85.
-There is another relevant factor that has to do with the number of observations in the database (they are not so many as to obtain a better analysis). In the residual plot, the manual transmission model is seen to be better, but we are only taking 32 observations. 
+Regarding the first question, it is clear that when choosing between automatic or manual transmission, **mpg performance is better for the manual version (keeping the rest of the parameters constant)**.
+For the second question, if it is also more difficult to answer, it is demonstrated through making a good adjustment to the model, since it allows us to obtain an improvement of **2.93 in mpg for the manual transmission**. We obtain a **p <0.05 and an R squared of 0.85**.
+There is another relevant factor that has to do with the number of observations in the database (they are not so many as to obtain a better analysis). In the residual plot, the manual transmission model is seen to be better, but **we are only taking 32 observations**. 
 
 (You can see the code detail at https://github.com/myrba2win/Regression-Model-Project-Motor-Trends)
 
